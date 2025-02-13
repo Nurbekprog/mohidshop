@@ -1,0 +1,76 @@
+.emailbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 178px;
+    padding: 40px 100px;
+    background: rgba(246, 246, 246, 1);
+    border-radius: 22px;
+    margin-bottom: 91px;
+    @media (max-width: 970px) {
+        gap: 100px;
+    }
+    @media (max-width: 885px) {
+        gap: 50px;
+    }
+    @media (max-width: 835px) {
+        gap: 15px;
+    }
+    @media (max-width: 800px) {
+        justify-content: center;
+        flex-direction: column;
+    }
+    &-title {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        & h4 {
+            font-family: Inter;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43.57px;
+            letter-spacing: 0%;
+            color: rgba(30, 29, 29, 1);            
+        }
+        & p {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19.36px;
+            letter-spacing: 0%;            
+            color: rgba(139, 142, 153, 1);
+        }
+    }
+}
+.input {
+    padding: 10px 30px;
+    border: none; 
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.08px;
+    letter-spacing: 0%;
+    color: rgba(139, 142, 153, 0.7);      
+}
+.form {
+    background: rgba(255, 255, 255, 1);
+    padding: 9px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emailbtn {
+    cursor: pointer;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(56, 88, 214, 1);  
+}

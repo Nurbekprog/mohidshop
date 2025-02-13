@@ -1,0 +1,41 @@
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 71px;
+    margin-bottom: 135px;
+    @media (max-width: 966px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 650px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    &-watchbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 26px;
+        padding: 45px 41px;
+        background: rgba(246, 246, 246, 1);
+        border-radius: 22px;
+        &-title {
+            & h3 {
+                color: rgba(30, 29, 29, 1);
+                font-family: Inter;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 43.57px;
+                letter-spacing: 0%;
+                margin-bottom: 9px;
+            }
+            & p {
+                color: rgba(139, 142, 153, 1);
+                font-family: Inter;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19.36px;
+                letter-spacing: 0%;                
+            }
+        }
+    }
+}
