@@ -45,6 +45,15 @@
             gap: 30px;
             border-radius: 22px;
             background: rgba(246, 246, 246, 1);
+            @media (max-width: 480px) {
+                padding: 15px;
+                gap: 10px;
+            }
+            @media (max-width: 440px) {
+                flex-direction: column;
+                padding: 20px;
+                justify-content: center;
+            }
             &-title {
                 & h4 {
                     color: rgba(30, 29, 29, 1);
