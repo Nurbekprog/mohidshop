@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './components/header/Header'
 import Firstsection from './components/firstsection/Firstsection'
 import Carousel from './components/carousel/Carousel'
